@@ -21,7 +21,7 @@ path = "src/bin/bench_ua.rs"
 [dependencies]
 async-trait = "0.1.89"
 futures = "0.3.32"
-rsip = { git = "https://github.com/Object905/rsip.git" branch = "fix_route_parsing" }
+rsip = { git = "https://github.com/Object905/rsip.git", branch = "fix_route_parsing" }
 thiserror = "2.0.18"
 tracing = "0.1.44"
 tokio-util = { version = "0.7.18", features = ["full"] }
